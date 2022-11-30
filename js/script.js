@@ -16,6 +16,4 @@ if (navigator.serviceWorker) {
 /**
  * this function
  */
-function myButtonClicked() {
-
-}
+function myButtonClicked() {}
