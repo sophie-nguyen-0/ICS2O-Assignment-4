@@ -44,7 +44,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <title>xxx</title>
+    <title>hi</title>
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -59,11 +59,38 @@
       </header>
       <main class="mdl-layout__content">
         <div id="col-1">
+          <h2> Hotdogs</h2>
+          <label>
+            <h6>size</h6>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <select class="mdl-textfield__input" id="size" name="size">
+              <option value="small">small</option>
+              <option value="medium">medium</option>
+              <option value="large">large</option>
+            </select>
+            <label class="mdl-textfield__label" for="size">size</label>
+          </div>
+          </label>
+          <label>
+            <h6>sauce</h6>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <select class="mdl-textfield__input" id="sauce" name="sauce">
+              <option value="ketchup">ketchup</option>
+              <option value="mustard">mustard</option>
+              <option value="relish">relish</option>
+              <option value="siracha">siracha</option>
+              <option value="all">all of the above</option>
+            </select>
+            <label class="mdl-textfield__label" for="sauce">sauce</label>
+          </div>
+          </label>
+          <br>
+          <br>
           <button
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
             onclick="myButtonClicked()"
           >
-            xxx
+            button
           </button>
         </div>
         <div id="col-2">
@@ -74,7 +101,11 @@
             height="25%"
           />
 
-          <div id="hello-world"></div>
+          <div id="answer">
+            <div id="size"></div>
+            <div id="sauce"></div>
+            <div id="total"></div>
+          </div>
         </div>
       </main>
     </div>
