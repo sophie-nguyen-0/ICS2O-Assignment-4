@@ -16,19 +16,18 @@ if (navigator.serviceWorker) {
 /**
  * this function
  */
- function myButtonClicked() {
-  const sauce = String(document.getElementById('sauce').value)
-  const size = String(document.getElementById('size').value)
+function myButtonClicked() {
+  const sauce = String(document.getElementById("sauce").value)
+  const size = String(document.getElementById("size").value)
 
   const TAXRATE = 0.13
 
-  const ketchup = 0.50
+  const ketchup = 0.5
   const mustard = 0.93
-  const relish = 0.50
+  const relish = 0.5
   const sriracha = 0.14
 
-  const small = 2.00
-  const medium = 2.50
-  const large = 3.00
-  
+  const small = 2.0
+  const medium = 2.5
+  const large = 3.0
 }
