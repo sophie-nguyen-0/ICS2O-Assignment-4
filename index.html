@@ -59,37 +59,33 @@
       </header>
       <main class="mdl-layout__content">
         <div id="col-1">
-          <h2>Hotdogs</h2>
+          <h2> Hotdogs</h2>
           <label>
             <h6>size</h6>
-            <div
-              class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
-            >
-              <select class="mdl-textfield__input" id="size" name="size">
-                <option value="small">small</option>
-                <option value="medium">medium</option>
-                <option value="large">large</option>
-              </select>
-              <label class="mdl-textfield__label" for="size">size</label>
-            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <select class="mdl-textfield__input" id="size" name="size">
+              <option value="small">small</option>
+              <option value="medium">medium</option>
+              <option value="large">large</option>
+            </select>
+            <label class="mdl-textfield__label" for="size">size</label>
+          </div>
           </label>
           <label>
             <h6>sauce</h6>
-            <div
-              class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
-            >
-              <select class="mdl-textfield__input" id="sauce" name="sauce">
-                <option value="ketchup">ketchup</option>
-                <option value="mustard">mustard</option>
-                <option value="relish">relish</option>
-                <option value="siracha">siracha</option>
-                <option value="all">all of the above</option>
-              </select>
-              <label class="mdl-textfield__label" for="sauce">sauce</label>
-            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <select class="mdl-textfield__input" id="sauce" name="sauce" >
+              <option value="ketchup">ketchup</option>
+              <option value="mustard">mustard</option>
+              <option value="relish">relish</option>
+              <option value="siracha">siracha</option>
+              <option value="all">all of the above</option>
+            </select>
+            <label class="mdl-textfield__label" for="sauce">sauce</label>
+          </div>
           </label>
-          <br />
-          <br />
+          <br>
+          <br>
           <button
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
             onclick="myButtonClicked()"
@@ -99,15 +95,21 @@
         </div>
         <div id="col-2">
           <img
-            src="./images/notebook-animation.svg"
-            alt="computer"
-            width="25%"
-            height="25%"
+            src="./images/hotdog.gif"
+            alt="hotdog"
+            width="50%"
+            height="50%"
+          />
+          <img
+            src="./images/hotdogdancing.gif"
+            alt="hotdog dancing"
+            width="50%"
+            height="50%"
           />
 
           <div id="answer">
-            <div id="size"></div>
-            <div id="sauce"></div>
+            <div id="size-chosen"></div>
+            <div id="sauce-chosen"></div>
             <div id="total"></div>
           </div>
         </div>

@@ -38,3 +38,8 @@ body {
   height: 100%;
   float: right;
 }
+
+img{
+  display: block;
+  margin: auto;
+}
