@@ -17,21 +17,21 @@
                     <mxGeometry x="85" y="450" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="answer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#660033;" parent="1" vertex="1">
-                    <mxGeometry x="414" y="390" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="90" y="490" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="size" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#660033;" vertex="1" parent="1">
+                <mxCell id="54" value="size" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#660033;" parent="1" vertex="1">
                     <mxGeometry x="80" y="280" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="&lt;h1&gt;Hotdogs&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#660033;" vertex="1" parent="1">
+                <mxCell id="55" value="&lt;h1&gt;Hotdogs&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#660033;" parent="1" vertex="1">
                     <mxGeometry x="90" y="240" width="190" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#660033;fillColor=none;strokeColor=#660033;" vertex="1" parent="1">
+                <mxCell id="56" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#660033;fillColor=none;strokeColor=#660033;" parent="1" vertex="1">
                     <mxGeometry x="85" y="310" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="toppings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#660033;" vertex="1" parent="1">
+                <mxCell id="57" value="toppings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#660033;" parent="1" vertex="1">
                     <mxGeometry x="85" y="350" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#660033;strokeColor=#660033;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="58" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#660033;strokeColor=#660033;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="85" y="380" width="120" height="30" as="geometry"/>
                 </mxCell>
             </root>
